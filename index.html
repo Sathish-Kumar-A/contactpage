@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        label{
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        h1{
+            font-size: 2em;
+            color:black;
+        }
+        #borderspace{
+            background-color: #87CEEB	;
+            width:600px;
+            height:550px;
+            margin:0 auto;
+            border-radius: 20px;
+        }
+        h2,h4,form{
+            padding: 20px;
+        }
+        .namebox,.emailbox,#issue-select,#textarea{
+            width:300px;
+            height:40px;
+            border:2px solid black;
+            border-radius:4px;
+    
+        }
+        #issue-select{
+            width:310px;
+            height:50px;
+        }
+        
+        #textarea{
+            margin-top:20px;
+            height:100px;
+        }
+        h2{
+            width:70px;
+            padding:10px;
+            font-size:1em;
+            background-color: #00FF00;
+            border-radius:8px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        h2:hover{
+            background-color: #008000;
+            color:grey;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><center>Contact Us</center></h1>
+    <hr>
+    <br>
+    <div id="borderspace">
+        <h4><center>For all queries and doubts email us below</center></h4>
+        <center><form action="">
+            <div>
+                <input type="text" class="namebox" name="Name" placeholder="Name"><br><br>
+                <input type="text" class="emailbox" name="Email" placeholder="Email ID"><br><br>
+                <select name="Issue" id="issue-select">
+                    <option value="issue1">Issue 1</option>
+                    <option value="issue2">Issue 2</option>
+                    <option value="issue3">Issue 3</option>
+                    <option value="issue4">Issue 4</option>
+                </select><br><br>
+                <textarea name="" id="textarea" cols="30" rows="10" placeholder="Provide more information"></textarea>
+            </div>
+            <h2><a href="#">Send</a></h2>
+        </form></center>
+    </div>
+</body>
+</html>
